@@ -33,7 +33,7 @@ The following demonstrators are currently under development and will be released
 
 We welcome community engagement via issues and discussion. While direct code contributions are limited to approved delivery partners at this stage, your feedback helps shape ongoing development.
 
-If you’d like to get involved, please refer to the contributing guidance within our [archetypes repository](https://github.com/National-Digital-Twin/archetypes/blob/main/CONTRIBUTING.md).
+If you’d like to get involved, please refer to the contributing guidance within our [archetypes repository](https://github.com/National-Node-Net/archetypes/blob/main/CONTRIBUTING.md).
 
 ---
 
