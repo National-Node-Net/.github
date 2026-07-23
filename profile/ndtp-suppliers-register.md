@@ -48,12 +48,8 @@ The consolidated list of organisations is provided below in alphabetical order:
 <!-- Generated automatically. Do not edit manually. -->
 
 - Answer Digital Ltd
-- Coefficient Systems
 - Informed Solutions
 - Kainos
-- Kampakis & Co. Ltd
-- Ove Arup & Partners
-- Radical IT
 - SiXworks Ltd
 - Telicent
 
