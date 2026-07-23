@@ -1,42 +1,110 @@
-# National Digital Twin Programme on GitHub
+# National Node Net on GitHub
 
-This GitHub organisation hosts the open-source assets developed by the **National Digital Twin Programme (NDTP)**. Our repositories contain code, tools, and documentation that enable the secure and interoperable sharing of information between digital systems and organisations.
+Welcome to the GitHub organisation for the **National Node Net**, an open-source project stewarded by the **National Digital Twin Programme (NDTP)** within the **Department for Business, Innovation, Science and Trade**.
 
-These assets are designed to support developers, integrators, and collaborators working with the foundational components of the UK’s future National Digital Twin ecosystem. These repositories provide practical implementations of our data-sharing architecture, demonstrator applications, and supporting libraries to accelerate adoption and development.
+The National Node Net provides the open-source infrastructure that enables organisations to establish trusted, interoperable data-sharing networks. Designed to be collaborative and community-driven, the project welcomes participation from across government, industry, academia and the wider open-source community.
+
+Our goal is to provide a common foundation for secure, policy-driven data sharing while allowing organisations to retain ownership, governance and control of their own data.
 
 ---
 
-## Key Repositories
+## What is the National Node Net?
 
-### Integration Architecture (IA)
+The National Node Net is an open, federated ecosystem that enables organisations to exchange information securely without requiring data to be centralised.
 
-The Integration Architecture is a federated framework that enables trusted data exchange between organisations. Each participant runs an IA Node, and nodes can share structured data securely under common governance principles.
+Rather than creating a single national platform, the National Node Net provides the infrastructure, trust framework and interoperability standards that allow independently operated organisations to participate in governed data-sharing networks.
 
-We provide:
+The project is:
 
-- The core IA Node reference implementation
-- Deployment templates and Helm charts for cloud-native environments
-- Documentation for implementation, integration, and extension
+- Open source
+- Cloud agnostic
+- Deployable using Infrastructure as Code (IaC)
+- Built around open standards and interoperability
+- Governed through explicit trust relationships
+- Designed to scale from local collaboration to national interoperability
 
-### Demonstrator Applications
+---
 
-These applications illustrate how NDTP technologies can be used to solve real-world problems using data.
+## Architecture
 
-- **IRIS** – A demonstrator supporting energy-efficiency decision-making for homes
-- **LISA** – A multi-agency incident management and coordination tool
+The National Node Net is built from three complementary concepts.
 
-The following demonstrators are currently under development and will be released in future phases:
+### Node
 
-- **NOVA**, **SALUS**, and **VISTA** – Covering renewable energy generation, vulnerable persons support, and emergency planning and response (expected Q4 2025–2026)
+A **Node** is the foundational deployment unit operated by an organisation. Nodes enable organisations to:
+
+- Participate in trusted data-sharing networks
+- Exchange information securely with other organisations
+- Apply governance and policy locally
+- Integrate existing business systems without centralising data
+
+Every participating organisation operates one or more Nodes.
+
+### Node Net
+
+A **Node Net** is a governed network of interoperable Nodes operating within a shared trust framework.
+
+Each Node Net establishes:
+
+- Trusted organisational identities
+- Common governance rules
+- Shared communication standards
+- Policy-driven data exchange
+
+Node Nets can be created for individual programmes, sectors, regions or communities with shared information requirements.
+
+### National Node Net
+
+The **National Node Net** connects multiple Node Nets together through a common trust framework, enabling interoperability between independently governed communities while allowing each to retain its own governance arrangements.
+
+This federated approach allows collaboration to scale without introducing a single central authority for operational data.
+
+---
+
+## Core Components
+
+The National Node Net is composed of a collection of open-source components, each maintained within its own repository.
+
+These include:
+
+- **Federator** – Enables trusted communication between Nodes and establishes federated trust relationships.
+- **Management Node** – Manages trust domains and governs participation within a Node Net.
+- **Connect Extract Components** – Integrate existing organisational systems with a Node.
+- **Secure Agent** – Provides secure storage and controlled exposure of shared information.
+- **Access Services** – Support organisational identity and policy-based access control.
+- **Policy Services** – Enable consistent policy evaluation and enforcement across participating organisations.
+
+Supporting repositories also provide deployment tooling, monitoring, observability, logging, governance utilities and reference implementations.
+
+---
+
+## Deployment
+
+The National Node Net is designed to be cloud agnostic and deployed using Infrastructure as Code.
+
+Reference deployment assets are available for multiple cloud platforms, with reusable deployment templates, configuration guidance and operational documentation provided throughout this organisation.
+
+---
+
+## Documentation
+
+Documentation is inspired by the Diátaxis framework and includes:
+
+- **Getting Started** – Learn the concepts and deploy your first Node.
+- **How-to Guides** – Practical deployment and operational guidance.
+- **Reference** – Technical documentation, APIs and configuration.
+- **Explanation** – Architecture, governance and design decisions.
+
+---
 
 ## Contributing
 
-We welcome community engagement via issues and discussion. While direct code contributions are limited to approved delivery partners at this stage, your feedback helps shape ongoing development.
+The National Node Net is an open-source project and welcomes contributions from across the public sector, private sector, academia and the wider open-source community.
 
-If you’d like to get involved, please refer to the contributing guidance within our [archetypes repository](https://github.com/National-Digital-Twin/archetypes/blob/main/CONTRIBUTING.md).
+Whether you're deploying a Node, contributing code, improving documentation or proposing new capabilities, we'd love to hear from you. Repository-specific contribution guidance is available within each project.
 
 ---
 
 ## Licensing
 
-All code is released under the Apache License 2.0. Documentation and content are published under the Open Government Licence v3.0.
+Unless otherwise stated, source code is released under the **Apache License 2.0**. Documentation and other content are published under the **Open Government Licence v3.0**.
